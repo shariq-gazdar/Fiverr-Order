@@ -1,0 +1,126 @@
+#leftSide {
+  display: inline-block;
+  width: 30vw;
+}
+#mainHeading {
+  margin: 2vw;
+}
+#resultBox {
+  margin: auto 3vw;
+  height: 90vw;
+  width: 27vw;
+  border: 1px solid black;
+}
+#resultBoxHeading {
+  padding: 1vw;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(to right, #ccc 0%, #ccc 50%, #f00 50%, #f00 100%);
+  height: 4px;
+  border-radius: 2px;
+}
+#resultBox input {
+  margin: 1vw;
+}
+.rangeSlider {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#tickmarks {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+#tickmarks option {
+  width: 33.33%;
+  text-align: center;
+  font-size: small;
+}
+#resultStashHeading {
+  padding: 1vw;
+}
+
+#rightSide {
+  width: 67vw;
+  height: 100vw;
+  float: right;
+}
+#firstBox {
+  transform: scale(1.7);
+}
+#secondBox {
+  transform: scale(1.7);
+}
+.checkTxt {
+  font-size: x-small;
+  display: inline;
+}
+#smallText {
+  margin-top: 3vw;
+  margin-right: 2vw;
+  float: right;
+  font-size: small;
+}
+#imgPreview {
+  display: inline-flex;
+  height: auto;
+  width: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card1 {
+  display: inline-block;
+  width: 20vw;
+  height: 17vw;
+  border: 1px solid black;
+  margin: 1vw 0vw 0vw 1vw;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Square_gray.svg/1200px-Square_gray.svg.png");
+  padding: 0.4vw;
+}
+.beefImg {
+  display: flex;
+  width: 25vw;
+  height: 22vw;
+  background-image: url("https://www.slimmingeats.com/blog/wp-content/uploads/2010/04/spaghetti-bolognese-36.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: flex-start;
+}
+.indCard {
+  display: flex;
+  width: 25vw;
+  height: 22vw;
+  justify-content: flex-start;
+}
+.tagLine {
+  display: inline-block;
+  font-size: small;
+  margin-left: 1vw;
+  text-align: center;
+  margin-top: 0.5vw;
+}
+#bottomTxt {
+  display: flex;
+  justify-content: space-between;
+}
+/* Media queries */
+@media only screen and (max-width: 800px) {
+  #leftSide {
+    width: 100vw;
+    height: 70vw;
+  }
+  #resultBox {
+    width: 95vw;
+    height: 50vw;
+    margin: 0 auto;
+  }
+  #rightSide {
+    margin-top: 0vw;
+    width: 100vw;
+  }
+}
