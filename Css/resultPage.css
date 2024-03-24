@@ -78,7 +78,7 @@
   font-size: 1rem;
   line-height: 2vw;
 }
-#plusBtn {
+.plusBtn {
   min-width: 2vw;
   min-height: 2vw;
   width: 2vw;
