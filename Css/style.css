@@ -42,9 +42,10 @@ body {
   object-fit: contain;
 }
 #cartImg {
-  width: 5vw;
+  width: 8vw;
   margin: 0 2vw;
   object-fit: contain;
+  mix-blend-mode: darken;
 }
 #navSec {
   padding: 0.5vw 5vw;
