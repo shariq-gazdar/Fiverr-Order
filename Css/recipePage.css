@@ -139,11 +139,14 @@
 #recipeList {
   margin-right: 1vw;
 }
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
   #rightDownBox {
     overflow: scroll;
   }
   #addToCart {
     height: 8vw;
+  }
+  #leftUpBox {
+    overflow: scroll;
   }
 }
