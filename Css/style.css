@@ -33,6 +33,7 @@ body {
 #searchIcon {
   margin: 1vw;
   width: 2vw;
+  cursor: pointer;
 }
 #searchField::placeholder {
   font-size: 1rem;
