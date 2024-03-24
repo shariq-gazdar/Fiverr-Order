@@ -69,6 +69,15 @@
   margin-left: 1vw;
   text-align: center;
 }
+#plusBtn1 {
+  min-width: 2vw;
+  min-height: 2vw;
+  width: 2vw;
+  height: 2vw;
+  border: 1px solid black;
+  font-size: 1rem;
+  line-height: 2vw;
+}
 #plusBtn {
   min-width: 2vw;
   min-height: 2vw;

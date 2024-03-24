@@ -73,6 +73,9 @@ input[type="range"]::-webkit-slider-runnable-track {
   align-items: center;
   flex-wrap: wrap;
 }
+.beefCard {
+  cursor: pointer;
+}
 .card1 {
   display: inline-block;
   width: 20vw;
